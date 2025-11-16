@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\DTO;
+namespace App\Model\DTO;
 
 /**
  * Résultat paginé d'une recherche d'entreprises.

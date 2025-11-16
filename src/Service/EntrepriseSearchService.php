@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace App\Service;
 
-use App\DTO\Entreprise;
-use App\DTO\SearchResult;
+use App\Model\DTO\Entreprise;
+use App\Model\DTO\SearchResult;
 use Psr\Log\LoggerInterface;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\DTO;
+namespace App\Model\DTO;
 
 /**
  * Représente une entreprise de l'API Recherche d'entreprises.

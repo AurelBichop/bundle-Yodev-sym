@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7d57498410bbc47eb9845f7a7082f1f8",
+    "content-hash": "7d20359cd69005b5b83990b35b93ca61",
     "packages": [
         {
             "name": "aurelbichop/recherche-entreprises-bundle",
-            "version": "dev-main",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AurelBichop/bundle-search-entreprise.git",
+                "reference": "2acf23b01ff458b5db6e2c57f59bae0994c33fd2"
+            },
             "dist": {
-                "type": "path",
-                "url": "../recherche-entreprises-bundle",
-                "reference": "d81834a31d009b2e17e383810af0aed4142b80a5"
+                "type": "zip",
+                "url": "https://api.github.com/repos/AurelBichop/bundle-search-entreprise/zipball/2acf23b01ff458b5db6e2c57f59bae0994c33fd2",
+                "reference": "2acf23b01ff458b5db6e2c57f59bae0994c33fd2",
+                "shasum": ""
             },
             "require": {
                 "symfony/config": "^7.3",
@@ -31,11 +37,7 @@
                     "AurelBichop\\RechercheEntreprisesBundle\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "AurelBichop\\RechercheEntreprisesBundle\\Tests\\": "tests/"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -47,16 +49,18 @@
             ],
             "description": "Bundle Symfony pour l'API Recherche d'entreprises du gouvernement français",
             "keywords": [
+                "Siren",
                 "api",
                 "bundle",
                 "entreprise",
-                "siren",
                 "sirene",
                 "symfony"
             ],
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/AurelBichop/bundle-search-entreprise/issues",
+                "source": "https://github.com/AurelBichop/bundle-search-entreprise/tree/v0.1.0"
+            },
+            "time": "2025-11-23T20:46:34+00:00"
         },
         {
             "name": "composer/semver",
@@ -10995,10 +10999,8 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "aurelbichop/recherche-entreprises-bundle": 20
-    },
+    "minimum-stability": "stable",
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

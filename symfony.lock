@@ -1,6 +1,6 @@
 {
     "aurelbichop/recherche-entreprises-bundle": {
-        "version": "dev-main"
+        "version": "v0.1.0"
     },
     "doctrine/deprecations": {
         "version": "1.1",

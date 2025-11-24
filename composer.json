@@ -1,19 +1,13 @@
 {
     "type": "project",
     "license": "proprietary",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../recherche-entreprises-bundle"
-        }
-    ],
     "require": {
         "php": ">=8.2",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "aurelbichop/recherche-entreprises-bundle": "dev-main",
+        "aurelbichop/recherche-entreprises-bundle": "^0.1.0",
         "doctrine/dbal": "^3.10.3",
         "doctrine/doctrine-bundle": "^2.18.1",
         "doctrine/doctrine-migrations-bundle": "^3.7",
